@@ -1,0 +1,90 @@
+<!doctype html>
+
+<html lang="zh-cn">
+<head>
+	<meta charset="utf-8">
+	<title>首页</title>
+
+	<style>
+	body{
+		width:750px;
+		margin:0 auto;
+	}
+
+	#seachform{
+		height:88px;
+		width:750px;
+		background-color:#007aff;
+	}
+
+	#seachbg{
+		height:58px;
+		width:650px;
+		margin:15px 20px;
+		border:none;
+		font-size:21px;
+		padding:0 50px 0 10px;
+		background:#f0eff5 url(images/01_03.jpg) no-repeat right center;
+		border-radius:10px;
+
+	}
+
+	#series{
+		height:1280px;
+	}
+
+	#series ul{
+		margin:0;
+		padding:0;
+	}
+	
+	#series li{
+		list-style-type:none;
+		float:left;
+		margin:30px 10px 0px 20px;
+	}
+
+
+
+	</style>
+</head>
+
+<body>
+	<div id="seachform">
+	<form action="http://www.baidu.com" method="get">
+
+		<input id="seachbg" type="text" placeholder="请输入图书名称搜索">
+
+	</form>
+	</div>
+
+	<div>
+		<img src="images/01_06.gif" alt="" title="工学结合，以职业为导向">
+	</div>
+	
+
+
+	<div id="series">
+		<ul>
+			<li><a href=""><img src="images/01_09.gif" alt=""></a></li>
+			<li><a href=""><img src="images/01_11.gif" alt=""></a></li>
+			<li><a href=""><img src="images/01_15.gif" alt=""></a></li>
+			<li><a href=""><img src="images/01_16.gif" alt=""></a></li>
+			<li><a href=""><img src="images/01_19.gif" alt=""></a></li>
+			<li><a href=""><img src="images/01_20.gif" alt=""></a></li>
+			<li><a href=""><img src="images/01_23.gif" alt=""></a></li>
+			<li><a href=""><img src="images/01_24.gif" alt=""></a></li>
+			<li><a href=""><img src="images/01_27.gif" alt=""></a></li>
+	
+		</ul>
+
+
+	</div>
+
+
+
+
+</body>
+
+
+</html>
